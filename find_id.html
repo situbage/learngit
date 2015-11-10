@@ -1,0 +1,22 @@
+<html><head><title>Find_id</title></head>
+<table border=2 align="center" style="color:blue">
+<body>
+ <tr>
+  <th>Title</th><th>Author</th><th>Publisher</th><th>PublishDate</th><th>Price</th>
+ </tr>
+{% for book in books %}
+ <tr>
+  <td>{{ book.Title}}</td>
+  <td>{{ book.AuthorID}}</td>
+  <td>{{ book.Publisher }}</td>
+  <td>{{ book.PublishDate }}</td>
+  <td>{{ book.Price }}</td>
+  <td><form action="/delete/" method="get">
+                <input type="hidden" name="id" value="{{ book.id }}"/>
+                <input type="submit" name="sq" value="Delete"></form></td>
+ </tr>
+{% endfor %}
+<img src="file:///C:/python27/zsz11/lala.jpeg" width="304" height="323" />
+</body>
+</table>
+</html>
