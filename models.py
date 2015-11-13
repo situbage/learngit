@@ -16,4 +16,4 @@ class Book(models.Model):
     Price = models.CharField(max_length=60)
     def __unicode__(self):
         return u'%s %s %s %s' % (self.Title, self.Publisher, self.PublishDate, self.Price)
-
+sjkhgrkl
