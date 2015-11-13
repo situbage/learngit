@@ -23,4 +23,8 @@ from django.shortcuts import render
 
 
 
+
 adfghj
+=======
+sdkfghkjdh
+>>>>>>> branch1

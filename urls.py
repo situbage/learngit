@@ -11,3 +11,5 @@ urlpatterns = patterns('',
     (r'^find_id/$',book_id),
     (r'^delete/$',delete_book),
 )
+电饭锅和居民宣传
+儿童Yui，
